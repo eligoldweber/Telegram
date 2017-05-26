@@ -2,7 +2,9 @@
   "name": "telegram",
   "version": "1.0.0",
   "main": "app.js",
-  "dependencies": {"express": "^4.13.4"},
+  "dependencies": {
+	  "express": "^4.13.4",
+  	  "telegram-node-bot": "^4.0.3"},
   "devDependencies": {},
   "engines": {
 	  "node": "4.1.x"
