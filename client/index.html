@@ -6,11 +6,13 @@ hello eli 1
 
 <a href="telegram1">telegram 1</a>
 
-<script> 
+<!-- <script>
 	var telegram = require('telegram-node-bot');
 	const TelegramBaseController = Telegram.TelegramBaseController
 	const TextCommand = Telegram.TextCommand
-	const tg = new Telegram.Telegram('331685887:AAGbp2P-Fm0FKnrBOMOiC5pC4bGdffG5Nxg')
+	const tg = new Telegram.Telegram('331685887:AAGbp2P-Fm0FKnrBOMOiC5pC4bGdffG5Nxg', {
+    workers: 1
+})
 
 	class PingController extends TelegramBaseController {
 	    /**
@@ -32,4 +34,4 @@ hello eli 1
 	        new TextCommand('ping', 'pingCommand'),
 	        new PingController()
 	    )
-</script>
+</script> -->
