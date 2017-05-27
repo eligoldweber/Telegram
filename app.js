@@ -15,9 +15,9 @@ app.get('/test',function(req,res){
 });
 
 
-app.get('/telegram1',function(req,res){
-	res.sendFile(__dirname + '/client/telegram1.html');
-});
+// app.get('/telegram1',function(req,res){
+// 	res.sendFile(__dirname + '/client/telegram1.html');
+// });
 
 app.use('/client',express.static(__dirname + '/client'));
 serv.listen(process.env.PORT || 2000);
