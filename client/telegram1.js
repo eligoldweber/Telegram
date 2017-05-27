@@ -35,12 +35,13 @@ bot.on('message', function(msg){
 			      }
 			    }
 			 );
-			 break:
+			 break;
 		 default:
 			bot.sendMessage(id, "you smell");
+			break;
 	}
 	
 	
 	
-	
+
 });
